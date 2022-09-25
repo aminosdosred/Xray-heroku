@@ -71,7 +71,6 @@ else
 fi
 
 sed -e "/^#/d"\
-    -e "s/\${PORT}/${PORT}/g"\
     -e "s|\${Vless_Path}|${Vless_Path}|g"\
     -e "s|\${Vmess_Path}|${Vmess_Path}|g"\
     -e "s|\${Share_Path}|${Share_Path}|g"\
